@@ -18,4 +18,6 @@ ENV NODE_ENV=production
 
 WORKDIR /app/apps/server
 
+EXPOSE 4010
+
 CMD ["npm", "run", "start"]
