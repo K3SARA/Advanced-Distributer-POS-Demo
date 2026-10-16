@@ -1,0 +1,22 @@
+{
+  "name": "Lucky POS",
+  "short_name": "Lucky POS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#005cb9",
+  "icons": [
+    {
+      "src": "/lucky-logo.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lucky-logo.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512",
+      "purpose": "any"
+    }
+  ]
+}

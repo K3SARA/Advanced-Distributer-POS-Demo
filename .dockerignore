@@ -1,0 +1,9 @@
+node_modules
+**/node_modules
+**/.vite
+.git
+.gitignore
+npm-debug.log*
+apps/mobile
+dist
+coverage

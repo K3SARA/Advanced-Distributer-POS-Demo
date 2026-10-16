@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Lucky POS",
+    "slug": "lucky-pos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.lucky.distributor.pos"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "./plugins/withThermalPrinterPermissions"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bd1eb92c-3c19-4f4a-997e-cc913ed3767b"
+      }
+    },
+    "owner": "navin99"
+  }
+}
