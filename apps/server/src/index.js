@@ -450,6 +450,15 @@ const sendFullSync = () => {
   });
 };
 
+app.get("/", async (_req, res) => {
+  res.json({
+    status: "online",
+    service: "Advanced Distributor POS API",
+    health: "/health",
+    now: new Date().toISOString()
+  });
+});
+
 app.get("/health", async (_req, res) => {
   res.json({ ok: true, now: new Date().toISOString() });
 });
